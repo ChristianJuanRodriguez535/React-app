@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.img-apod {
+    width: 300px;
+    display: block;
+    margin: 0 auto; /* Centra la imagen */
+}
+
+.content {
+    position: relative;
+    top:60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,40 @@
+.astro-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0; /* Fondo más claro para que combine con el resto de la página */
+}
+
+.astro-card {
+    width: 180px; /* Ajustar el tamaño de las tarjetas */
+    text-align: center;
+    border: 2px solid transparent; /* Bordes transparentes para un look más limpio */
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra sutil para más profundidad */
+    background: linear-gradient(45deg, #ff7e5f, #feb47b); /* Gradiente que combina con el navbar */
+    margin: 20px;
+    padding: 15px;
+    transition: all 0.3s ease; /* Transición suave al hacer hover */
+}
+
+.astro-card:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el ratón */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al hacer hover */
+}
+
+.astro-card h3 {
+    font-size: 1.2rem;
+    color: white;
+    background: linear-gradient(to right, #00c6ff, #0072ff); /* Gradiente para el texto */
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 10px;
+}
+
+.astro-card p {
+    font-size: 1rem;
+    color: white;
+}
